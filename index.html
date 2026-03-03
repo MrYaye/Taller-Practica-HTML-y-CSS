@@ -3,9 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sanrio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header>   
+        <nav>
+            <img src="images/Sanrio_Logo.png" alt="Logo" class="logo">
+            <a href="#services">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="articles">
+        <div class="article">
+            <h3>Article Title</h3>
+            <p>Article content goes here.</p>
+        </div>
+        <hr>
+        <div class="article">
+            <h3>Article Title</h3>
+            <p>Article content goes here.</p>
+        </div>
+    </section>
+
+    <section id="contact Form">
+        <h2>Contact Form</h2>
+        <form action="" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="[Input field]" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="[Input field]" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="[Input field]" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="Student Score">
+        <h2>Student Scores</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>HTML</th>
+                <th>CSS</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>Lauren</td>
+                <td>66</td>
+                <td>50</td>
+                <td>116</td>
+            </tr>
+            <tr>
+                <td>Brayan</td>
+                <td>92</td>
+                <td>85</td>
+                <td>177</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td></td>
+                <td></td>
+                <td><strong>293</strong></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Dirección: Calle 26 #89 - 19, Cali, Colombia</p>
+        <p>Teléfono: +57 302 8499758</p>
+        <p>Email: sanrio@antencioncliente.com</p>
+        
 </body>
 </html>
